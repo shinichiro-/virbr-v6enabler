@@ -1,0 +1,11 @@
+# Name: virbr-v6enabler
+# Files: virbr-v6enabler.sh, virbr-v6enabler.conf, rc.local
+# Author: Shinichiro HIDA <shinichiro@stained-g.net>
+# License: GPLv3
+
+# Description
+
+ Add IPv6 address to virbrN interfaces which bringed up
+ by libvirt-bin to get IPv6 reachability for KVM
+ guests virtual machines on vnetN virtual networks. 
+
